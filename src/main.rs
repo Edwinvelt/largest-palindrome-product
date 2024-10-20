@@ -7,7 +7,7 @@ fn main() {
 
     let mut palindromic_list: Vec<u32> = Vec::new();
 
-    while num1 <= 999 || num2 <= 999 {
+    while num2 <= 999 {
       let result: u32 = num1 * num2;
 
       // check if palindromic
